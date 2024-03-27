@@ -1,3 +1,4 @@
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+###
+
+Hi sir my self Prashanth 
+
+The website is about Temples of Tamilnadu state 
+
+1. I have made 5 temples details view on this website
+2. It has a nav container with nav elements to navigating part
+3. There are more details os Temples in the website like pooja timings, location etc
