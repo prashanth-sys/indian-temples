@@ -1,0 +1,69 @@
+.location-container {
+  background-color: aliceblue;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.location-heading {
+  color: brown;
+  margin-left: 15px;
+  font-family: "Roboto";
+  margin-bottom: 10px; /* Add some bottom margin for better spacing */
+}
+
+.location-icon {
+  color: brown;
+  font-size: 30px;
+  margin-right: 10px; /* Adjust margin for better spacing */
+}
+
+.location-items {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Add some bottom margin for better spacing */
+}
+
+.location-details {
+  color: #0f172a;
+  font-size: 18px; /* Adjust font size for smaller screens */
+  margin-left: 15px;
+  margin-bottom: 10px; /* Add some bottom margin for better spacing */
+}
+
+.span-element {
+  color: brown;
+  margin-left: 15px;
+  font-size: 18px; /* Adjust font size for smaller screens */
+  font-weight: 500;
+}
+
+.location-temples {
+  height: 45px; /* Adjust button height for smaller screens */
+  width: 160px;
+  background-color: brown;
+  color: #ffffff;
+  border: none; /* Remove border for cleaner look */
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-top: 10px; /* Adjust margin for better spacing */
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .location-details {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  .span-element {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  .location-temples {
+    height: 40px; /* Adjust button height for smaller screens */
+    margin-top: 5px; /* Adjust margin for smaller screens */
+  }
+}

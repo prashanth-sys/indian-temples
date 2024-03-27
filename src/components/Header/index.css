@@ -1,0 +1,56 @@
+.temple-logo {
+  width: 50px; /* Adjust logo size for smaller screens */
+  margin-right: 10px; /* Adjust margin for better spacing */
+}
+
+.nav-header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 0 20px; /* Adjust margin for better spacing */
+}
+
+.logo-name {
+  font-family: "Roboto";
+  color: #0f172a;
+  font-size: 24px; /* Adjust font size for smaller screens */
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap; /* Allow list items to wrap to the next line */
+}
+
+.list {
+  list-style-type: none;
+  margin-right: 20px; /* Adjust margin for better spacing */
+  font-size: 21px; /* Adjust font size for smaller screens */
+  color: #0f172a;
+  font-weight: 500;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin-bottom: 10px; /* Add some bottom margin for better spacing */
+}
+.temple-logo-container {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-header {
+    padding: 5px; /* Adjust padding for smaller screens */
+    margin: 0 10px; /* Adjust margin for smaller screens */
+  }
+
+  .logo-name {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+
+  .list {
+    margin-right: 15px; /* Adjust margin for smaller screens */
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+}

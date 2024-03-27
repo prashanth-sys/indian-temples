@@ -1,0 +1,151 @@
+/* Default styles */
+.bg-container {
+  background-color: #ffffff;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.temple-home-container {
+  background-color: rgb(233, 171, 57);
+  background-size: cover;
+  display: flex;
+  padding: 5px;
+}
+
+.temple-image {
+  width: 25%;
+  height: auto;
+  margin-left: 11%;
+  margin-top: 2%;
+  margin-right: 15px;
+}
+
+.main-heading {
+  color: brown;
+  font-weight: bold;
+  font-size: 39px;
+  margin-right: 15px;
+}
+
+.span {
+  color: brown;
+  font-weight: 500;
+}
+
+.add-button {
+  height: 55px;
+  width: 160px;
+  background-color: brown;
+  color: #ffffff;
+  border-width: 0px;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 5px;
+  align-self: center;
+}
+
+.temple-count-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7%;
+}
+
+.temples-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.temple {
+  font-size: 25px;
+  margin: 9px;
+  margin-left: 15%;
+}
+
+.temple-link {
+  text-decoration: none;
+  color: #0f172a;
+}
+
+.tamilnadu-temples {
+  color: brown;
+  margin-left: 15%;
+}
+
+.hr {
+  width: 90%;
+  text-align: start;
+  background-color: #0f172a;
+  height: 2px;
+  border-radius: 5px;
+}
+
+.contact-info-container {
+  background-color: rgb(233, 171, 57);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-heading {
+  color: brown;
+}
+
+.info {
+  color: #0f172a;
+  font-size: 19px;
+  margin: 0px;
+}
+
+.info-icon {
+  color: #0f172a;
+  margin-top: 15px;
+  margin-right: 5px;
+  font-size: 25px;
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 768px) {
+  .temple-home-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .temple-image {
+    width: 70%;
+    margin: 2% 0;
+  }
+
+  .main-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .span {
+    font-size: 16px;
+  }
+
+  .add-button {
+    margin-top: 15px;
+  }
+
+  .temples-list {
+    align-items: center;
+  }
+
+  .temple {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .tamilnadu-temples {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .contact-info-container {
+    height: auto;
+  }
+}

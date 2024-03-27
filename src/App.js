@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import { Switch, Route } from "react-router-dom";
+import TempleHomePage from "./components/TempleHomePage";
+import Temples from "./components/Temples";
+import AboutUs from "./components/About Us";
+import Location from "./components/Location";
+import MeenakshiTemple from "./components/MeenakshiTemple";
+import BrihadeeswararTemple from "./components/BrihadeeswararTemple";
+import KapaleeshwararTemple from "./components/KapaleeshwararTemple";
+import RamanathaswamyTemple from "./components/RamanathaswamyTemple";
+import ArunachalamTemple from "./components/ArunachalesvaraTemple";
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <Switch>
+    <Route exact path="/" component={TempleHomePage} />
+    <Route exact path="/temples" component={Temples} />
+    <Route exact path="/about/us" component={AboutUs} />
+    <Route exact path="/location" component={Location} />
+    <Route exact path="/meenakshi/temple" component={MeenakshiTemple} />
+    <Route
+      exact
+      path="/brihadeeswarar/temple"
+      component={BrihadeeswararTemple}
+    />
+    <Route
+      exact
+      path="/kapaleeshwarar/temple"
+      component={KapaleeshwararTemple}
+    />
+    <Route
+      exact
+      path="/ramanathaswamy/temple"
+      component={RamanathaswamyTemple}
+    />
+    <Route exact path="/arunachalam/temple" component={ArunachalamTemple} />
+  </Switch>
+);
 
 export default App;

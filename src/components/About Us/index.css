@@ -1,0 +1,44 @@
+.about-us-heading {
+  color: brown;
+  margin-left: 15px;
+  margin-top: 20px; /* Add some top margin for better spacing */
+}
+
+.about-us-description {
+  color: #0f172a;
+  font-size: 19px;
+  width: 90%; /* Adjust width for smaller screens */
+  margin-left: 15px;
+}
+
+.visit-temples {
+  height: 55px;
+  width: 160px;
+  background-color: brown;
+  color: #ffffff;
+  border-width: 0px;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 5px;
+  align-self: center;
+  margin-top: 20px; /* Add some top margin for better spacing */
+  margin-bottom: 20px; /* Add some bottom margin for better spacing */
+}
+
+.about-us-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px; /* Adjust margin for smaller screens */
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .about-us-description {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  .visit-temples {
+    margin-top: 15px; /* Adjust margin for smaller screens */
+    margin-bottom: 15px; /* Adjust margin for smaller screens */
+  }
+}
